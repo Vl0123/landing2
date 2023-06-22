@@ -1,0 +1,86 @@
+.firstt{
+    width: 530px;
+    margin-top: 40px;
+
+    border: none;
+}
+
+.firstt input{
+    margin-top: 20px;
+    height: 50px;
+}
+
+.countryFlag{
+    margin-top: 20px;
+    height: 50px;
+}
+
+.leadSubmit{
+    width: 205px;
+    height: 50px;
+    background-color: #FCD535;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .firstt{
+        width: 100%;
+    }
+}
+
+
+.secondd{
+    width: 100%;
+
+    border: none;
+}
+
+.secondd .formHeader{
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+
+    text-align: center;
+
+    color: #eaecef;
+}
+
+.dropdown-toggle::after {
+    margin-left: 10px;
+}
+
+.secondd input, .secondd .countryFlag{
+    margin-top: 20px;
+
+    height: 40px;
+
+    font-size: 21px;
+}
+
+.secondd .leadSubmit{
+    margin-top: 10px;
+
+    width: 100%;
+    height: 60px;
+
+    background-color: #FCD535;
+
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #181a20;
+    font-weight: 600;
+}
+
+    .form-select{
+    height: 50px !important;
+    margin: 15px 0;
+}
+
+.error {
+    color: red;
+}

