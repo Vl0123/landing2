@@ -1,6 +1,3 @@
-from .serving import run_simple as run_simple
-from .test import Client as Client
-from .wrappers import Request as Request
-from .wrappers import Response as Response
+from __future__ import annotations
 
-__version__ = "2.3.6"
+__version__ = "0.38.4"
